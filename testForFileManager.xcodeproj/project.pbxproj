@@ -11,6 +11,10 @@
 		7899517625922AFB00E9695F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899517525922AFB00E9695F /* ContentView.swift */; };
 		7899517825922AFC00E9695F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7899517725922AFC00E9695F /* Assets.xcassets */; };
 		7899517B25922AFC00E9695F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7899517A25922AFC00E9695F /* Preview Assets.xcassets */; };
+		7899518425922B7F00E9695F /*  SelectPDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899518325922B7F00E9695F /*  SelectPDFView.swift */; };
+		7899518825922BFE00E9695F /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899518725922BFE00E9695F /* ItemData.swift */; };
+		7899518C25922C1900E9695F /* SelectPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899518B25922C1900E9695F /* SelectPDF.swift */; };
+		7899518F2592316800E9695F /* PlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7899518E2592316800E9695F /* PlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		7899517725922AFC00E9695F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7899517A25922AFC00E9695F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7899517C25922AFC00E9695F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7899518325922B7F00E9695F /*  SelectPDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " SelectPDFView.swift"; sourceTree = "<group>"; };
+		7899518725922BFE00E9695F /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
+		7899518B25922C1900E9695F /* SelectPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPDF.swift; sourceTree = "<group>"; };
+		7899518E2592316800E9695F /* PlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,9 @@
 			children = (
 				7899517325922AFB00E9695F /* testForFileManagerApp.swift */,
 				7899517525922AFB00E9695F /* ContentView.swift */,
+				7899518E2592316800E9695F /* PlayView.swift */,
+				7899518325922B7F00E9695F /*  SelectPDFView.swift */,
+				7899518625922BB000E9695F /* SelectPDF */,
 				7899517725922AFC00E9695F /* Assets.xcassets */,
 				7899517C25922AFC00E9695F /* Info.plist */,
 				7899517925922AFC00E9695F /* Preview Content */,
@@ -67,6 +78,15 @@
 				7899517A25922AFC00E9695F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7899518625922BB000E9695F /* SelectPDF */ = {
+			isa = PBXGroup;
+			children = (
+				7899518725922BFE00E9695F /* ItemData.swift */,
+				7899518B25922C1900E9695F /* SelectPDF.swift */,
+			);
+			path = SelectPDF;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7899518F2592316800E9695F /* PlayView.swift in Sources */,
 				7899517625922AFB00E9695F /* ContentView.swift in Sources */,
+				7899518425922B7F00E9695F /*  SelectPDFView.swift in Sources */,
+				7899518C25922C1900E9695F /* SelectPDF.swift in Sources */,
+				7899518825922BFE00E9695F /* ItemData.swift in Sources */,
 				7899517425922AFB00E9695F /* testForFileManagerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +293,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"testForFileManager/Preview Content\"";
-				DEVELOPMENT_TEAM = A7JG5T69VB;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = testForFileManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -277,7 +301,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.cyberhome.ad.shishid.testForFileManager;
+				PRODUCT_BUNDLE_IDENTIFIER = youraddress.testForFileManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -291,7 +315,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"testForFileManager/Preview Content\"";
-				DEVELOPMENT_TEAM = A7JG5T69VB;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = testForFileManager/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -299,7 +323,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jp.ne.cyberhome.ad.shishid.testForFileManager;
+				PRODUCT_BUNDLE_IDENTIFIER = youraddress.testForFileManager;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
